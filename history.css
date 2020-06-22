@@ -1,0 +1,79 @@
+body {
+    font-size: 14px;
+    text-align: left;
+}
+
+h2  {
+    margin-left: 10%;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    font-family: 'Playfair Display SC', serif;
+}
+
+table {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-collapse: separate;
+    border-spacing: 5vw 0;
+
+}
+
+.main-heading {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+    font-style: bold;
+    font-size: 150%;
+
+}
+
+th {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+td {
+    padding: 1% 0;
+}
+
+h3 {
+    font-family: 'Playfair Display SC', serif;
+    margin-top: 5%;
+}
+
+nav {
+    position: relative;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 10%;
+    margin-top: 5%;
+}
+
+a {
+    color: black;
+    font-size: 2em;
+    padding-left: -10%;
+}
+
+a:hover, a:visited {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+@media (max-width: 575.98px) {
+    nav {
+        margin-top: 10%;
+    }
+
+    .table-responsive{-sm};
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    nav {
+        margin-top: 10%;
+    }
+}

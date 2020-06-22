@@ -1,0 +1,203 @@
+body {
+    font-size: 14px;
+    text-align: left;
+}
+
+h2, h4 {
+    margin-left: 10%;
+}
+
+.activities {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 4em;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.gymnastics {
+    position: relative;
+    left: 10%;
+    width: 40%;
+}
+
+.taekwondo {
+    width: 40%;
+    position: relative;
+    left: 10%;
+}
+
+.yoga {
+    position: relative;
+    left: 5%;
+    width: 40%;
+}
+
+.personaltraining {
+    position: relative;
+    left: 3%;
+    width: 40%;
+}
+
+.kungfu {
+    width: 25%;
+    position: relative;
+    left: 10%;
+}
+
+.walking {
+    width: 50%;
+    position: relative;
+    left: 10%;
+}
+
+.barre {
+    position: relative;
+    width: 25%;
+    left: 10%;
+}
+
+.running {
+    position: relative;
+    width: 20%;
+    left: 30%;
+}
+
+nav {
+    position: relative;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 10%;
+    margin-top: 5%;
+}
+
+h3 {
+    font-family: 'Playfair Display SC', serif;
+    margin-top: 5%;
+}
+
+a {
+    color: black;
+    font-size: 2em;
+}
+
+a:hover {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ffd700;
+    text-decoration: none;
+
+}
+
+/* Responsive breakpoints */
+
+
+@media (max-width: 575.98px) {
+    nav {
+        margin-top: 10%;
+    }
+
+    h3 {
+        font-family: 'Playfair Display SC', serif;
+        margin-top: 5%;
+    }
+    
+    nav {
+        position: relative;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        padding-right: 10%;
+        margin-top: 5%;
+    }
+    
+    a {
+        color: black;
+        font-size: 2em;
+        padding-left: -10%;
+    }
+    
+    a:hover, a:visited {
+        color: #ffd700;
+        text-decoration: none;
+    }
+    
+    @media (max-width: 575.98px) {
+        nav {
+            margin-top: 10%;
+        }
+
+        .gymnastics, .taekwondo, .yoga, 
+        .kungfu {
+            width: 100%;
+            margin-left: -10%;
+            margin-bottom: 5%;
+        }
+
+        .personaltraining, .walking {
+            width: 125%;
+            margin-left: -15%;
+            margin-bottom: 5%;
+        }
+
+        .barre {
+            width: 100%;
+            margin-bottom: 5%;
+            margin-left: -10%;
+        }
+
+        .running {
+            width: 75%;
+            margin-left: -10%;
+        }
+}
+    
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        nav {
+            margin-top: 10%;
+        }
+
+        
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    nav {
+        margin-top: 10%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    nav {
+        margin-top: 2%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    nav {
+        margin-top: 2%;
+        padding-right: 2%;
+    }
+}
+
+@media (min-width: 1200px) {
+    nav {
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+}
+
+

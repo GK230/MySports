@@ -1,0 +1,80 @@
+$margin-left: 10%;
+
+h5 {
+    margin-left: $margin-left
+}
+
+p {
+    margin-left: $margin-left
+}
+
+.container {
+    font-size: 1em;
+
+    h5 {
+        text-emphasis-style: bold;
+    }
+}
+
+%title-and-text {
+    font-family: 'Playfair Display SC', serif;
+}
+
+p {
+    @extend %title-and-text;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2  {
+    margin-left: 10%;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    font-family: 'Playfair Display SC', serif;
+}
+
+h3 {
+    font-family: 'Playfair Display SC', serif;
+    margin-top: 5%;
+}
+
+nav {
+    position: relative;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 10%;
+    margin-top: 5%;
+}
+
+a {
+    color: black;
+    font-size: 2em;
+    padding-left: -10%;
+}
+
+a:hover, a:visited {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+@media (max-width: 575.98px) {
+    nav {
+        margin-top: 10%;
+    }
+
+    .experience {
+        margin-bottom: 3%;
+    }
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    nav {
+        margin-top: 10%;
+    }
+}
+
