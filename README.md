@@ -1,3 +1,7 @@
+Watch the video:
+
+https://www.youtube.com/watch?v=IpYP5BplI1M
+
 # Project 0
 
 Web Programming with Python and JavaScript
